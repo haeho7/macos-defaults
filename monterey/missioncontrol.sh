@@ -5,7 +5,7 @@
 #
 # 可能的值:
 #   0: 无操作
-#   2: 任务控制
+#   2: 调度中心
 #   3: 显示应用程序窗口
 #   4: 桌面
 #   5: 启动屏幕保护程序
@@ -18,8 +18,8 @@
 # 14: 快速备忘录
 # vwous-*-modifier 表示修改键的组合，0 为不修改
 
-# 屏幕左上角 -> 调度中心
-defaults write com.apple.dock wvous-tl-corner -int 2
+# 屏幕左上角 -> 无操作
+defaults write com.apple.dock wvous-tl-corner -int 0
 defaults write com.apple.dock wvous-tl-modifier -int 0
 
 # 屏幕右上角 -> 无操作

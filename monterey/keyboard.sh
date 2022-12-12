@@ -20,13 +20,13 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool true
 
 # 设置按键重复和延迟 (重启生效)
-defaults write NSGlobalDomain KeyRepeat -int 2
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
+#defaults write NSGlobalDomain KeyRepeat -int 2
+#defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
-# 设置快按键重复和延迟极，UI界面不显示设置效果 (重启生效)
-# defaults write NSGlobalDomain KeyRepeat -int 1
-# defaults write NSGlobalDomain InitialKeyRepeat -int 10
+# 设置极快的按键重复和延迟，GUI界面不显示设置效果 (重启生效)
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # 为所有控件启用全键盘访问（如在模态对话框中启用 Tab)
-#「系统偏好设置」-「辅助功能」-「键盘」但选中效果与命令开启存在差异
+# 系统偏好设置 -> 辅助功能 -> 键盘，但选中效果与命令开启存在差异
 defaults write  NSGlobalDomain AppleKeyboardUIMode -int 3

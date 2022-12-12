@@ -4,7 +4,7 @@
 # 访达
 #
 # 在 Finder 菜单中添加 "退出" 选项
-# 也可通过 ⌘ + Q 退出，不过桌面会隐藏
+# 也可通过 ommand ⌘ + Q 退出，不过桌面会隐藏
 # defaults write com.apple.finder QuitMenuItem -bool true
 
 # 在 Finder 中显示所有文件扩展名，默认值: false
