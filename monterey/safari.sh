@@ -15,7 +15,7 @@ defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 #defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 #defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
-# 开启浏览器显示完整网站（ (在 Monterey 12.6.1 中已失效，需手动设置)
+# 开启浏览器显示完整网站 (在 Monterey 12.6.1 中已失效，需手动设置)
 #defaults write com.apple.safari ShowFullURLInSmartSearchField -bool true
 
 # 设置主页为 `about:blank` 以加快加载速度 (在 Monterey 12.6.1 中已失效，需手动设置)
