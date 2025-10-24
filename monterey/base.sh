@@ -22,7 +22,7 @@ defaults write NSGlobalDomain AppleLocale -string "zh_CN"
 
 # 设置时区 (在 Monterey 12.6.1 中已废弃)
 # 其他值见 `sudo systemsetup -listtimezones`
-#sudo systemsetup -settimezone "Asia/Shanghai" > /dev/null
+#sudo systemsetup -settimezone "Asia/Taipei" > /dev/null
 
 # 关闭开机音效
 # 系统偏好设置 -> 声音 -> 启动时播放声音
